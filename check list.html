@@ -2,10 +2,77 @@
 
 <head>
     <meta charset = "utf-8">
-    <title>Чек лист</title>>
+    <title>Чек лист</title>
+    <link rel="stylesheet" href="mysite.css">
+
+    <style>
+body {
+  margin: 10;
+  background: #e6e3eb;
+}
+table {
+  border-collapse: collapse; 
+  line-height: 1.1;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background: #f8f8f8;
+  color: #0C213B;
+}
+caption {
+  font-family: annabelle, cursive;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 10px; 
+  color: #4b186d;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+ }
+th {
+  padding: 10px; 
+  border: 1px solid #000000;
+}
+td {
+  font-size: 0.8em;
+  padding: 5px 7px;
+  border: 1px solid #000000;
+}
+.first {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+    </style>
 </head>
 
 <body>
+    <table>
+        <caption>Чек лист</caption>
+        <tr>
+            <th>Группа проверок/модуль</th>
+            <th colspan="1">Проверка</th>
+            <th>Приоритет</th>
+        </tr>
+        <tr>
+            <th rowspan="6" class="first">"Мои покупки"</th>
+            <td>Проверить работает ли переход в раздел "Мои покупки"</td>
+            
+            <td rowspan="6">High</td>
+        </tr>
+        <tr>
+            <td>Проверить отображаются ли текущие заказы. Вкладка "текущие заказы"</td>
+        </tr>
+        <tr>
+            <td>Проверить работает ли переход от вкладки ко вкладке. От "Текущие заказы" до "Покупки в салоне".</td>
+        </tr>
+        <tr>
+            <td>Проверить отображаются ли выполненные заказы. Вкладка "выполненные заказы"</td>
+        </tr>
+        <tr>
+            <td>Проверить отображаются ли отмененные заказы. Вкладка "отмененные заказы"</td>
+        </tr>
+        <tr>
+            <td>Проверить отображаются ли покупки в салоне. Вкладка "покупки в салоне"</td>
+        </tr>
+
+        
 </body>
 
 </html>>
